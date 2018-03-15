@@ -5,4 +5,5 @@ RUN apt-get update \
     pdftk \
     ghostscript \
     imagemagick \
-    gsfonts
+    gsfonts \
+    && rm -rf /var/lib/apt/lists/*
